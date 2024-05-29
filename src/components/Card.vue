@@ -18,7 +18,7 @@ defineProps({
     </div>
     <div class="font-medium flex flex-col justify-between m-3">
       <div>
-        <div class="text-3xl font-bold max-w-[250px]">{{ name }}</div>
+        <div class="text-3xl font-bold max-w-[300px]">{{ name }}</div>
         <div class="flex items-center gap-0">
           <div v-if="status === 'Alive'" class="w-[10px] h-[10px] bg-[#55CC44] rounded-full mr-2"></div>
           <div v-else-if="status === 'Dead'" class="w-[10px] h-[10px] bg-[#D63D2E] rounded-full mr-2"></div>
