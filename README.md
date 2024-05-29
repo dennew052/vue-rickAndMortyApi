@@ -6,7 +6,7 @@
 
 Здесь можно перелистывать страницы, фильтровать персонажей с помощью выбора статуса и искать персонажей по имени
 
-# https://dennew052.github.io/rickAndMortyApi/
+# https://dennew052.github.io/vue-rickAndMortyApi/
 
 ![image](https://github.com/dennew052/vue-rickAndMortyApi/assets/42219192/77fdb101-e853-470d-b3f5-2d72ef839fdb)
 
