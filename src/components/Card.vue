@@ -11,7 +11,7 @@ defineProps({
 </script>
 <template>
   <div
-    class="w-fit bg-[#3C3E44] rounded-lg flex-col flex text-white m-3 xl:flex-row xl:w-[600px] xl:h-[220px] transition hover:-translate-y-1.5">
+    class="w-fit bg-[#3C3E44] rounded-lg flex-col flex text-white m-3 xl:flex-row xl:w-[600px] xl:h-[220px] overflow-clip transition hover:-translate-y-1.5">
     <div class="flex-shrink-0 ">
       <img :src="image" :alt="name"
            class="object-cover max-w-full max-h-full ml-auto mr-auto">

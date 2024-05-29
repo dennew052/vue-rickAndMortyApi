@@ -26,6 +26,6 @@ const emit = defineEmits(['nextPage', 'previousPage', 'openPageByNum'])
            @click="() => emit ('openPageByNum', info.pages)">»
       </div>
     </div>
-    <input @change="(event) => emit('openPageByNum', event.target.value)" type="text" class="ml-4 w-14 text-center">
+    <input @change="(event) => { emit('openPageByNum', event.target.value); event.target.value = '' }" type="text" class="ml-4 w-14 text-center">
   </div>
 </template>
