@@ -60,7 +60,6 @@ const previousPage = () => {
 const openPageByNum = (num) => {
   console.log('Проверка ' + num)
   if (Number(num) >= 1 && Number(num) <= items.value.info.pages) {
-    currentPage.value = Number(num)
   }
 }
 
