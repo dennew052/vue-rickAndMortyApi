@@ -1,14 +1,16 @@
 # vue-rickAndMortyApi
 
-This template should help get you started developing with Vue 3 in Vite.
+Создано с помощью Vue 3 Composition API + Vite + Tailwind CSS
 
-## Recommended IDE Setup
+Сайт, на которой можно просматривать персонажей из Рика и Морти с помощью открытого api https://rickandmortyapi.com/
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Здесь можно перелистывать страницы, фильтровать персонажей с помощью выбора статуса и искать персонажей по имени
 
-## Customize configuration
+# https://dennew052.github.io/vue-rickAndMortyApi/
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![image](https://github.com/dennew052/vue-rickAndMortyApi/assets/42219192/77fdb101-e853-470d-b3f5-2d72ef839fdb)
+
+<p align="center"><img  src="https://github.com/dennew052/vue-rickAndMortyApi/assets/42219192/804bb1f4-cffa-4ef0-9858-131dc4b6dbf2"></p>
 
 ## Project Setup
 
@@ -21,14 +23,6 @@ npm install
 ```sh
 npm run dev
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
